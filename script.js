@@ -14,7 +14,7 @@ possilbleChoices.forEach((possilbleChoice) =>
     generateComputerChoice();
     getResult();
   })
-);
+)
 
 function generateComputerChoice() {
   const randomNumber = Math.floor(Math.random() * possilbleChoices.length);
